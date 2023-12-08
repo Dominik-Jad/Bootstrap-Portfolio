@@ -1,0 +1,22 @@
+:root {
+    --graient: rgba(122, 188, 201, 0.5);
+    --heading-background: rgb(102, 216, 205);
+    --text-color: rgb(54, 112, 128);
+}
+
+#navbarCollapse ul{
+    right: 0;
+    position: absolute;
+}
+
+#navbarCollapse ul li a{
+    color: var(--text-color);
+}
+.name-text {
+    padding-left: 2em;
+    padding-right: 1em;
+    background-color: var(--heading-background);
+    color: var(--text-color);
+    font-size: xx-large;
+    margin-left: 0;
+}
