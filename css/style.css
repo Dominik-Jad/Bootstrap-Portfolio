@@ -49,10 +49,26 @@ body {
     color: var(--text-color);
     margin: 1em;
 }
+/*about me section */
 
+
+.about {
+    text-justify: inter-word;
+    text-align: justify;
+}
+  
+/* work gird */ 
 
 .card {
     height: 200px;
+    border: 0.4em solid var(--heading-background);
+    margin: 5px;
+    cursor: pointer;
+    align-content: end;
+    border: 0.4em solid var(--heading-background);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #portfolio-1 {
     background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-1.jpg");
@@ -93,3 +109,22 @@ body {
 #portfolio-5:hover {
     background-image: url("../images/02-run-buddy.jpg");
 }
+
+/*  Contact Section styling */
+#contact {
+    align-items: center;
+  }
+  
+  #contact ul {
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  #contact ul li {
+    text-decoration: underline;
+  }
+  
