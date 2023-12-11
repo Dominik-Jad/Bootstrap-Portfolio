@@ -4,19 +4,92 @@
     --text-color: rgb(54, 112, 128);
 }
 
+body {
+    color: var(--text-color) !important;
+  }
+  
+  a {
+    color: var(--text-color) !important;
+  }
+/* nav css */
 #navbarCollapse ul{
     right: 0;
     position: absolute;
+    padding: 0 1em;
 }
 
 #navbarCollapse ul li a{
     color: var(--text-color);
+    text-decoration: underline;
+    padding: 1em;
+}
+.text-div{
+    padding: 0.5em 0;
 }
 .name-text {
     padding-left: 2em;
     padding-right: 1em;
     background-color: var(--heading-background);
     color: var(--text-color);
-    font-size: xx-large;
-    margin-left: 0;
+    position: relative;
+    left: 0;
+}
+
+/* hero css */
+.hero-banner{
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    background-color: var(--heading-background);
+    padding: 1em;
+    color: var(--text-color);
+    margin: 1em;
+}
+
+
+.card {
+    height: 200px;
+}
+#portfolio-1 {
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-1.jpg");
+}
+
+#portfolio-1:hover {
+    background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#portfolio-2 {
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-2.jpg");
+}
+
+#portfolio-2:hover {
+    background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#portfolio-3 {
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-3.jpg");
+}
+
+#portfolio-3:hover {
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#portfolio-4 {
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-4.jpg");
+}
+
+#portfolio-4:hover {
+    background-image: url("../images/02-portfolio-4.jpg");
+}
+
+#portfolio-5 {
+    background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-run-buddy.jpg");
+}
+
+#portfolio-5:hover {
+    background-image: url("../images/02-run-buddy.jpg");
 }
