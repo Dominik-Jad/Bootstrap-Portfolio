@@ -128,3 +128,23 @@ body {
     text-decoration: underline;
   }
   
+  /*heading styling to have it appear over the top of everything else */
+.heading {
+    position: relative;
+    left: 0;
+    top: 20px;
+    padding: 15px;
+    height: 100px;
+    width: fit-content;
+    color: white;
+    background-color: var(--heading-background);
+    z-index: 3;
+  }
+
+h2 {
+    flex-basis: 20%;
+  text-align: end;
+  padding-left: 3em;
+  padding-right: 1em;
+  border-right: 0.1em solid var(--text-color);
+}
