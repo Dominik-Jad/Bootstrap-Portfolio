@@ -35,6 +35,9 @@ body {
     left: 0;
 }
 
+nav {
+    background-color: rgb(40, 40, 40);;
+}
 /* hero css */
 .hero-banner{
     background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-hero-bg.jpg");
@@ -110,6 +113,13 @@ body {
     background-image: url("../images/02-run-buddy.jpg");
 }
 
+
+/* skills section */
+.skills-list{
+    list-style-type: none;
+    text-align: left;
+}
+
 /*  Contact Section styling */
 #contact {
     align-items: center;
@@ -142,9 +152,19 @@ body {
   }
 
 h2 {
-    flex-basis: 20%;
-  text-align: end;
-  padding-left: 3em;
-  padding-right: 1em;
   border-right: 0.1em solid var(--text-color);
+}
+
+/* add a bit of a mragin to the contact me section */
+.contact-heading { 
+    margin-top: 2em;
+}
+
+/* footer section */
+footer a{
+    text-decoration: none;
+}
+
+footer i{
+    padding: 2em;
 }
