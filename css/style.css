@@ -73,6 +73,11 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 }
+ 
+/* remove the underline from links */
+.card a {
+    text-decoration: none;
+}
 #portfolio-1 {
     background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-1.jpg");
 }
