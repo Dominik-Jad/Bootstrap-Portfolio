@@ -6,26 +6,30 @@
 
 body {
     color: var(--text-color) !important;
-  }
-  
-  a {
+}
+
+a {
     color: var(--text-color) !important;
-  }
+}
+
 /* nav css */
-#navbarCollapse ul{
+#navbarCollapse ul {
     right: 0;
     position: absolute;
     padding: 0 1em;
 }
 
-#navbarCollapse ul li a{
+#navbarCollapse ul li a {
     color: var(--text-color);
     text-decoration: underline;
     padding: 1em;
+    background-color: rgb(40, 40, 40);
 }
-.text-div{
+
+.text-div {
     padding: 0.5em 0;
 }
+
 .name-text {
     padding-left: 2em;
     padding-right: 1em;
@@ -36,22 +40,24 @@ body {
 }
 
 nav {
-    background-color: rgb(40, 40, 40);;
+    background-color: rgb(40, 40, 40);
 }
+
 /* hero css */
-.hero-banner{
+.hero-banner {
     background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-hero-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.hero-text{
+.hero-text {
     background-color: var(--heading-background);
     padding: 1em;
     color: var(--text-color);
     margin: 1em;
 }
+
 /*about me section */
 
 
@@ -59,8 +65,8 @@ nav {
     text-justify: inter-word;
     text-align: justify;
 }
-  
-/* work gird */ 
+
+/* work gird */
 
 .card {
     height: 200px;
@@ -73,11 +79,12 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 }
- 
+
 /* remove the underline from links */
 .card a {
     text-decoration: none;
 }
+
 #portfolio-1 {
     background-image: linear-gradient(var(--graient), var(--graient)), url("../images/02-portfolio-1.jpg");
 }
@@ -120,7 +127,7 @@ nav {
 
 
 /* skills section */
-.skills-list{
+.skills-list {
     list-style-type: none;
     text-align: left;
 }
@@ -128,22 +135,22 @@ nav {
 /*  Contact Section styling */
 #contact {
     align-items: center;
-  }
-  
-  #contact ul {
+}
+
+#contact ul {
     margin: 0;
     flex-grow: 1;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     flex-wrap: wrap;
-  }
-  
-  #contact ul li {
+}
+
+#contact ul li {
     text-decoration: underline;
-  }
-  
-  /*heading styling to have it appear over the top of everything else */
+}
+
+/*heading styling to have it appear over the top of everything else */
 .heading {
     position: relative;
     left: 0;
@@ -154,22 +161,22 @@ nav {
     color: white;
     background-color: var(--heading-background);
     z-index: 3;
-  }
+}
 
 h2 {
-  border-right: 0.1em solid var(--text-color);
+    border-right: 0.1em solid var(--text-color);
 }
 
 /* add a bit of a mragin to the contact me section */
-.contact-heading { 
+.contact-heading {
     margin-top: 2em;
 }
 
 /* footer section */
-footer a{
+footer a {
     text-decoration: none;
 }
 
-footer i{
+footer i {
     padding: 2em;
 }
